@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <style>
+        .input-container{
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>Sign Up</header>
+        </div>
+        <div class="input-container">
+            <form action="./signup.php" method="post">
+            <div class="input-field">
+                <label for="user">Username</label>
+                <input type="text" name="username" id="user">
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="text" name="password" id="user">
+            </div>
+
+            <div class="input-field">
+                <label for="CFpass">Confirm Password</label>
+                <input type="password" name="CFpassword" id="CFpassword">
+            </div>
+
+            <div class="input-field">
+                <input type="submit" name="submit" class="submit" value="Sign Up">
+                <p>Already have an account?<a href="./login.html">Login</a></p>
+            </div>
+        </form>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>

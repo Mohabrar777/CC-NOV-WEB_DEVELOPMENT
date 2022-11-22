@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: rgb(134, 156, 176); */
+    /* background-color: #f3f3f3; */
+    background:linear-gradient(110deg,#fdcd3b 60%,#ffed4b 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    margin-top: 30px;
+    /* background-color: rgb(8, 8, 128); */
+    background-color: #f0eeee;
+    border-radius: 30px;
+    min-height: 450px;
+    width: 400px;
+    box-shadow: 0 5px 20px 5px rgb(87, 86, 86);
+    transition: 1s;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.input-container{
+    margin: 30px 30px 10px 30px;
+}
+
+label{
+    color: black;
+    margin: 0 0 5px 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+    
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 15px 0px
+}
+
+input{
+    outline: none;
+    /* background-color: rgb(187, 190, 242); */
+    /* border: 2px solid white; */
+    background-color: rgb(202, 200, 200);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+input:hover{
+    background-color: rgb(72, 72, 146);
+    color: white;
+}
+
+.submit{
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgb(255, 0, 43);
+}
+
+p{
+    margin: 20px 0px 0px 50px;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
